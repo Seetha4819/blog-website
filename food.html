@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food Blog - Home</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+  }
+
+  .header {
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    font-family: 'Georgia', serif;
+  }
+
+  .tagline {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #e91e63;
+  }
+
+  .search-bar {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+  }
+
+  .search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e91e63;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .search-bar button:hover {
+    background-color: #d81b60;
+  }
+
+  .hero-image {
+    background: url('https://via.placeholder.com/1600x400') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-image h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  .hero-image p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .welcome-message {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .welcome-message h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .welcome-message p {
+    font-size: 18px;
+    color: #666;
+  }
+
+  .categories {
+    padding: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .category {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .category img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .category h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  .category a {
+    text-decoration: none;
+    color: #e91e63;
+    font-weight: bold;
+  }
+
+  .featured-content {
+    padding: 20px;
+    background: #fff;
+  }
+
+  .featured-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .featured-item {
+    margin-bottom: 20px;
+  }
+
+  .featured-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .featured-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .featured-item p {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .cta {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .cta a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e91e63;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .cta a:hover {
+    background-color: #d81b60;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 class="logo">Food Blog</h1>
+  <p class="tagline">Flavors that tell stories in every bite</p>
+  <nav>
+    <a href="#Home">Home</a>
+    <a href="#Street Food">Street Style</a>
+    <a href="#Popular Recepies">High Fashion</a>
+    <a href="#Healthy Recepies">Healthy Recepies</a>
+    <a href="#Veg Items">Veg Items</a>
+    <a href="#About">About</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+</div>
+
+<div class="search-bar">
+  <input type="text" placeholder="Search...">
+  <button type="button">Search</button>
+</div>
+
+<div class="welcome-message">
+  <h1>Welcome, food lovers! Here, every dish tells a delicious story.</h1>
+  <p>In every bite, there is a world of flavor waiting to be discovered. Savor the journey, taste the moments</p>
+</div>
+
+<div class="categories">
+  <div class="category">
+    <img src="https://2.bp.blogspot.com/-LoiDNLG3uFU/U23WDhG6UBI/AAAAAAAAB7s/kjqZBIa4O44/s1600/DSC_0338.JPG" alt="Street Food">
+    <h3><a href="#Street Food">Street Food</a></h3>
+  </div>
+  <div class="category">
+    <img src="https://wallpaperaccess.com/full/4622468.jpg" alt="Popular Recepies">
+    <h3><a href="#Popular Recepies">Popular Recepies</a></h3>
+  </div>
+  <div class="category">
+    <img src="https://peasandcrayons.com/wp-content/uploads/2017/02/healthy-tomato-avocado-cucumber-salad-recipe-peasandcrayons-4716.jpg" alt="Healthy Recepies">
+    <h3><a href="#Healthy Recepies">Healthy Recepies</a></h3>
+  </div>
+  <div class="category">
+    <img src="https://www.wallpaperflare.com/static/965/895/782/vegetables-herbs-lots-of-wallpaper.jpg" alt="Veg Items">
+    <h3><a href="#Veg Items">Veg Items</a></h3>
+  </div>
+</div>
+
+<div class="featured-item">
+  <h2>Trendy Food</h2>
+  <div class="Trendy Food">
+    <img src="https://www.restaurantmenu.pk/wp-content/uploads/2020/12/117350331_885933008477018_7804216864353781295_o-e1607497297415.jpg" alt="Trendy food  Image" class="food-img" style="height:250px; width:250px">
+      <img src="https://fromykitchen.com/wp-content/uploads/2020/06/20200603_205525.jpg" alt="Trendy food Image" class="food-img" style="height:250px; width:250px">
+      <img src="https://i.ytimg.com/vi/7lBMu87ll08/maxresdefault.jpg" style="height:250px; width:250px">
+      <img src="https://www.indrani-will-teach.com/wp-content/uploads/2021/04/IMG_20210411_130526.jpg" style="height:250px; width:250px">
+      <img src="https://i.ytimg.com/vi/JCEKLuUAdy8/maxresdefault.jpg" style="height:250px; width:250px">
+      <img src="https://thumbs.dreamstime.com/b/chicken-mandi-dates-chicken-mandi-dates-white-table-arabic-cuisine-top-view-176759314.jpg" style="height:250px; width:200px">
+    <p>You can't live a full life on an empty stomach.</p>
+  </div>
+  <div class="featured-item">
+    <h3>Healthy Food</h3>
+  <div class="Healthy Food">
+    <img src="https://twohealthykitchens.com/wp-content/uploads/2020/11/QuinaPowerBowls2.jpg" alt="healthy food  Image" class="food-img" style="height:250px; width:250px">
+      <img src="https://ifoodreal.com/wp-content/uploads/2017/08/chicken-breast-with-tomatoes-9.jpg" alt="Healthy food Image" class="food-img" style="height:250px; width:250px">
+      <img src="https://www.eatwell101.com/wp-content/uploads/2016/09/quick-family-meal-recipes.jpg" style="height:250px; width:250px">
+      <img src="https://i.pinimg.com/originals/2d/9d/6e/2d9d6e0b8e3537253c7a77561321838f.jpg" style="height:250px; width:250px">
+      <img src="https://s23209.pcdn.co/wp-content/uploads/2014/09/IMG_7950edit-640x960.jpg" style="height:250px; width:250px">
+      <img src="https://healthbeet.org/wp-content/uploads/2021/03/meal-prep-for-weight-loss-by-health-beet.jpg" style="height:250px; width:200px">
+    <p>Nourish your body, it’s the only place you have to live.</p>
+  </div>
+  <div class="featured-item">
+    <h2>Street Food</h2>
+  <div class="Street Food">
+    <img src="https://2.bp.blogspot.com/-5MWxbk2RfVw/U23WFtFVphI/AAAAAAAAB70/9FxOFF9J84I/s1600/DSC_0437.JPG" alt="Street food  Image" class="food-img" style="height:250px; width:250px">
+      <img src="https://images.huffingtonpost.com/2015-04-21-1429625091-5924561-StreetFood_8.jpeg" alt="Street food Image" class="food-img" style="height:250px; width:250px">
+      <img src="https://s4.scoopwhoop.com/ach/food/13.jpg" style="height:250px; width:250px">
+      <img src="https://wp.inews.co.uk/wp-content/uploads/2017/03/Street-food.jpg" style="height:250px; width:250px">
+      <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/06/19105548/Rolls-1.jpg" style="height:250px; width:250px">
+      <img src="https://www.holidify.com/images/cmsuploads/compressed/IndianStreetFood_20190103000803.jpg" style="height:250px; width:200px">
+    <p>Good food is found on the streets, not just in fancy restaurants.</p>
+  </div>
+</div>
+
+<div class="cta">
+  <a href="#subscribe">Subscribe Now</a>
+</div>
+
+</body>
+</html>
